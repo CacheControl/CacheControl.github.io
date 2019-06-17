@@ -36,6 +36,24 @@ body {
     min-height: 2em + $base-line-height;
   }
 
+  a.back-button {
+    font-size: 30pt;
+    text-decoration: none;
+    color: #000
+  }
+
+  a.back-button:hover {
+    color: #000;
+  }
+
+  .article-list-date {
+    display: inline-block;
+    font-size: 12px;
+    color: #797070;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
   h1 {
     font-weight: 600;
   }

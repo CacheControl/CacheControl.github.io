@@ -3,7 +3,6 @@ layout: post
 title: Table Partitioning in PostgreSQL
 date: 2015-08-17
 comments: true
-external-url:
 categories: Databases
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: You might not need debug
 date: 2019-06-16
 comments: true
-external-url:
 categories: Node.js
 ---
 
@@ -15,7 +14,7 @@ This post argues that the value provided by `debug` is minor, and  consumers sho
 
 ## What it does
 
-`debug` enables debug message to be turned on and written to standard out by setting an environmental variable. If a package isn't performing like you'd expect, debug may lend clues as to what's going on under the hood.
+`debug` enables debug message to be turned on and written to stdout by setting an environmental variable. If a package isn't performing like you'd expect, debug may lend clues as to what's going on under the hood.
 
 Consider the following snippet:
 
@@ -64,7 +63,7 @@ function debug (...messages) {
 }
 ```
 
-which ouputs:
+which outputs:
 ```bash
 localhost:~/project-debug|⇒  DEBUG=project node index.js
 "first call"

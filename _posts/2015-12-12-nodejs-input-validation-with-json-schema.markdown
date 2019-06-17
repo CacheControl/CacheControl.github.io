@@ -3,7 +3,6 @@ layout: post
 title: Node.js Input Validation using Json-Schema
 date: 2015-12-12
 comments: true
-external-url:
 categories: Node.js
 ---
 
