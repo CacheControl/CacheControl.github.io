@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vetting Dependencies
+title: On Vetting Dependencies
 date: 2019-07-04
 comments: true
 categories: Node.js
@@ -50,3 +50,8 @@ Many projects offer a large feature set, while only a fraction of these are actu
 Dev dependencies have a cost! Longer time to `npm install`, longer build times on CI, and one more package for contributors to grok. Project bloat is a major concern, and `devDependencies` should be no exception.
 Ask if the devDependency being added truly advances the project as a whole, or if it's only adding incremental value for developers who understand it while increasing the cognitive burden for everyone else.
 
+## Summary
+
+Every dependency incurs a cost which will manifest in different ways. When abandoned they become technical debt, when vulnerabilities are discovered they become an additional attack vector for bad actors, when unnecessary they increase project bloat and cognitive load. Every team would do well to adopt a thorough vetting processing for considering new dependencies. Having a simple checklist of criteria will pay off in spades over the short, medium, and (especially!) long term.
+
+> nothing is free, not even free software
