@@ -1,0 +1,22 @@
+---
+layout: post
+title: How to build
+date: 2019-07-04
+comments: true
+categories: Node.js
+---
+
+You've built an incredibly useful internal library at your organization, and (of course) no one else is using it. They're not using it because the amount of software in the world is legion, and it isn't enough to build something and assume the masses will come.
+
+> To build a successful
+
+## Quality
+
+Gauging quality is a critical deciding factor; it's a huge waste of resources to introduce a dependency, only to discover later (the hard way) that it's not production ready. Here are some quick ways to identify red flags which may be indicative of a poor quality dependency:
+
+- Large numbers of dependencies and overall bundle size. [Bundlephobia](https://bundlephobia.com/) provides a good visual snapshot.
+- Security vulnerabilities. Use the free [snyk scanning](https://snyk.io/vuln) tool to identify vulnerabilities for any package.
+- Large numbers of open issues and/or pull requests
+- Number of downloads on npm; a larger user base increases the likelihood an issue will be reported, improving quality.
+
+## Activity
